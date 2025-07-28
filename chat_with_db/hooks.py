@@ -2,9 +2,9 @@ app_name = "chat_with_db"
 app_title = "Chat With Db"
 app_publisher = "MIT"
 app_description = "Connect to any db and connect with LLMA and ask question RAG"
-app_email = "vinoth@techuni.com"
+app_email = "vinoth@raj.com"
 app_license = "mit"
-
+app_requirements = "requirements.txt"
 # Apps
 # ------------------
 
@@ -176,6 +176,9 @@ app_license = "mit"
 #
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "chat_with_db.event.get_events"
+# }
+# override_whitelisted_methods = {
+#     "chat_with_db.api.ask_db.run_query": "chat_with_db.api.ask_db.run_query"
 # }
 #
 # each overriding function accepts a `data` argument;

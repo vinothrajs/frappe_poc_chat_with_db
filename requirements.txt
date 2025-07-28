@@ -1,0 +1,10 @@
+langchain==0.3.26
+langchain-openai==0.3.28
+langchain-chroma==0.2.4
+langchain-experimental
+openai>=1.86,<2.0
+chromadb==1.0.10
+sqlalchemy==2.0.20
+pymysql==1.1.0
+pandas==2.1.2
+tiktoken>=0.7,<1
